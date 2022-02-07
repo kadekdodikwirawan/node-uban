@@ -1,4 +1,11 @@
 export default function AllSection(){
+    const handleAtc = () =>{
+      if (typeof window !== "undefined") {
+        if (window.fbq != null) {
+          window.fbq('track', 'AddToCart');
+        }
+      }
+    }
     return(
         <>
 <div>
@@ -75,7 +82,7 @@ export default function AllSection(){
       <p className="lead">Mau Tanya-Tanya ? Hubungi CS kami KLIK TOMBOL DIBAWAH INI</p>
       <img src="./img/down.webp" className="img-fluid" alt="down" />
       <div className="d-grid gap-2">
-        <a id="atc" href="whatsapp://send?phone=6285792426905&text=Halo%20tanya%20dong%20Shampo%20Cultusia%20untuk%20hitamkan%20rambut%20uban%20sekali%20keramas%20%20lagi%20ada%20promo%20dan%20Bonus%20GRATIS%20ongkir%20ya%20%3F%3F" className="btn btn-success btn-xl text-uppercase">Mau Gratis Ongkir Klik Disini</a>
+        <a id="atc" onClick={handleAtc} href="whatsapp://send?phone=6285792426905&text=Halo%20tanya%20dong%20Shampo%20Cultusia%20untuk%20hitamkan%20rambut%20uban%20sekali%20keramas%20%20lagi%20ada%20promo%20dan%20Bonus%20GRATIS%20ongkir%20ya%20%3F%3F" className="btn btn-success btn-xl text-uppercase">Mau Gratis Ongkir Klik Disini</a>
       </div>
     </div>
   </section>
@@ -90,7 +97,7 @@ export default function AllSection(){
       <p className="fs-5 lh-sm">Nb : Kini saatnya anda bisa tutupi uban tanpa perlu pergi ke salon menunggu berjam-jam, Cukup keramas dengan Cultusia sampo rambut uban tertutupi.</p>
       <img src="./img/down.webp" className="img-fluid" alt="down" />
       <div className="d-grid gap-2">
-        <a id="atc" href="whatsapp://send?phone=6285792426905&text=Halo%20tanya%20dong%20Shampo%20Cultusia%20untuk%20hitamkan%20rambut%20uban%20sekali%20keramas%20%20lagi%20ada%20promo%20dan%20Bonus%20GRATIS%20ongkir%20ya%20%3F%3F" className="btn btn-success btn-xl text-uppercase">Mau Gratis Ongkir Klik Disini</a>
+        <a id="atc" onClick={handleAtc}  href="whatsapp://send?phone=6285792426905&text=Halo%20tanya%20dong%20Shampo%20Cultusia%20untuk%20hitamkan%20rambut%20uban%20sekali%20keramas%20%20lagi%20ada%20promo%20dan%20Bonus%20GRATIS%20ongkir%20ya%20%3F%3F" className="btn btn-success btn-xl text-uppercase">Mau Gratis Ongkir Klik Disini</a>
       </div>
     </div>
   </section>
