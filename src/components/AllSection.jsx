@@ -60,14 +60,14 @@ export default function AllSection(){
     </div>
   </section>
   <div>
-    <h3 className="bg-danger p-3 text-white">Cara Penggunaan Sampo Cultusia:</h3>
+    <h3 className="bg-danger p-3 text-white">Manfaat sampo culutisa :</h3>
     <div className="pe-3 ps-3">
       <ol>
-        <li>Keluarkan isi sampoo cultusia secukupnya di telapak tangan</li>
-        <li>Usapkan di semua bagian rambut sampai berbusa</li>
-        <li>Tunggu 5 sampai dengan 10 menit</li>
-        <li>Bilas dengan air bersih</li>
-        <li>Bisa digunakan saat rambut kering maupun basah.</li>
+      <li>Membantu menghitamkan rambut dalam sekali keramas.</li>
+        <li>Membantu menebalkan dan mengatasi kerontokan rambut.</li>
+        <li>Mencegah ketombe dan jamur kepala.</li>
+        <li>Membuat rambut jadi lembut dan sehat.</li>
+        <li>Kemasan besar bisa di pakai <strong>10 sampai 12 kali pemakaian</strong>.</li>
       </ol>
     </div>
   </div>
