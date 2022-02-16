@@ -11,6 +11,7 @@ export default function AllSection(){
 <div>
   <section>
     <div className="row pt-5">
+        <h3 style="backgroundColor: yellow; padding: 1rem;" className="text-uppercase fw-bold mx-3 text-center">Diskon Dan Gratis ongkir !!!</h3>
       <div className="col-4">
         <img src="./img/sampo-hitam.webp" className="img-fluid" alt="sampo-hitam" />
       </div>
@@ -74,12 +75,12 @@ export default function AllSection(){
     <div className="p-3 text-center">
       <h5>Saya Mau! Berapa harga Sampo Cultusia ?</h5>
       <h1 className="text-uppercase fw-bold text-danger">Promo Terbatas</h1>
-      <h1 className="text-uppercase text-primary">Gratis Ongkir Seluruh Indoneisa</h1>
+      <h1 className="text-uppercase text-primary">Diskon + Gratis Ongkir Seluruh Indoneisa</h1>
       <h3>Harga Normal : <span className="text-decoration-line-through text-danger">Rp 289.000</span></h3>
       <h3>Harga Hemat :</h3>
       <h1 className="fw-bold display-1 text-success">Rp 169.000</h1>
-      <h4>Anda Lebih Hemat Dengan <strong className="text-danger">GRATIS ONGKIR</strong>, Sangat <strong className="text-primary">TERJANGKAU</strong></h4>
-      <p className="lead">Mau Tanya-Tanya ? Hubungi CS kami KLIK TOMBOL DIBAWAH INI</p>
+      <div className="fs-4">Sudah <span className="fw-bold text-danger text-uppercase">Gratis Ongkir</span> Ke Alamat Anda</div>
+      <p className="lead">Untuk Pemesanan atau mau tanya-tanya klik tombol di bawah ini dan anda akan terhubung dengan cs kami lewat whatsapp</p>
       <img src="./img/down.webp" className="img-fluid" alt="down" />
       <div className="d-grid gap-2">
         <a id="atc" onClick={handleAtc} href="whatsapp://send?phone=6285792426905&text=Halo%20tanya%20dong%20Shampo%20Cultusia%20untuk%20hitamkan%20rambut%20uban%20sekali%20keramas%20%20lagi%20ada%20promo%20dan%20Bonus%20GRATIS%20ongkir%20ya%20%3F%3F" className="btn btn-success btn-xl text-uppercase">Mau Gratis Ongkir Klik Disini</a>
