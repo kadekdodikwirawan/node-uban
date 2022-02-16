@@ -11,7 +11,7 @@ export default function AllSection(){
 <div>
   <section>
     <div className="row pt-5">
-        <h3 style={{backgroundColor: yellow, padding: '1rem'}} className="text-uppercase fw-bold mx-3 text-center">Diskon Dan Gratis ongkir !!!</h3>
+        <h3 style={{backgroundColor: 'yellow', padding: '1rem'}} className="text-uppercase fw-bold mx-3 text-center">Diskon Dan Gratis ongkir !!!</h3>
       <div className="col-4">
         <img src="./img/sampo-hitam.webp" className="img-fluid" alt="sampo-hitam" />
       </div>
